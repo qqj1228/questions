@@ -25,4 +25,4 @@ if __name__ == '__main__':
         if os.path.isdir(path):
             tree(path)
         else:
-            print ('"%s" is not dir')
+            print ('"%s" is not dir' % path)
